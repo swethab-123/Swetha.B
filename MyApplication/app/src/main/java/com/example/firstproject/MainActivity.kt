@@ -13,14 +13,14 @@ class MainActivity : AppCompatActivity() {
        /* //1 GlobalScope.launch {
             delay(3000L)
             Log.d(TAG,"Coroutine says hello from thread ${Thread.currentThread().name}")
-        }
+        }/*hello*/
         Log.d(TAG,"Hello from thread ${Thread.currentThread().name}") //1*/
       /* // 2 GlobalScope.launch {
             val ans1 = doNetworkCall1()
             val ans2 = doNetworkCall2()
             Log.d(TAG, ans1)
             Log.d(TAG, ans2)
-        } //2*/
+        } //2*//*hi*/
     /* // 3  GlobalScope.launch(Dispatchers.IO) {
      Log.d(TAG,"Starting coroutine in the thread ${Thread.currentThread().name}")
      val ans=doNetworkCall()
